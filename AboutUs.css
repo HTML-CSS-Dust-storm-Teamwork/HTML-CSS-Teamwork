@@ -15,6 +15,7 @@
 	list-style: none;
 	text-align: center;
 	font-size: 2em;
+	font-family: "SketchFlow Print";
 }
 #menu li, #logo li{
 	display: inline;
@@ -36,4 +37,14 @@
 a, p {
 	text-decoration: none;
 	color: #fcf9f2;
+}
+h1:hover, a:hover{
+	
+
+}
+.shh, a:hover span {
+	 display: none 
+}
+a:hover .shh { 
+	display: inline 
 }
