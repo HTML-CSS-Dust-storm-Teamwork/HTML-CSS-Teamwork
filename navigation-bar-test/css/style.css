@@ -12,12 +12,18 @@
     padding-left: 4em;
 }
 
-.reverse, a:hover span {
-	 display: none;
+#test > ul > li > a:hover {
+    direction: rtl; 
+    unicode-bidi: bidi-override;
+    color: #FF9900;
+    background-color: transparent;
 }
 
-a:hover .reverse { 
-	display: inline; 
+#test > ul > li > a:focus {
+    direction: rtl; 
+    unicode-bidi: bidi-override;
+    color: #FF9900;
+    background-color: transparent;
 }
 
 .centralize-font {
@@ -53,4 +59,12 @@ a:hover .reverse {
 body > header > div.navbar.navbar-fluid {
     background-color: black;
     border-radius: 0px;
+}
+
+body > header > div.navbar.navbar-fluid > div > div.navbar-header > button > span {
+    background-color: #337AB7;
+}
+
+body > header > div.navbar.navbar-fluid > div > div.navbar-header > button {
+    border-color: #337AB7;
 }
