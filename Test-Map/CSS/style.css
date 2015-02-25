@@ -1,0 +1,29 @@
+body {
+	display: inline-block;
+}
+
+#map {
+
+}
+
+.class {
+	
+}
+
+#route {
+	font-size: 30px;
+}
+
+#route li:hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+#legend li {
+	font-size: 30px;
+	list-style: none;
+}
+
+#legend h3 {
+	text-decoration: underline;
+}
