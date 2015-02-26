@@ -1,3 +1,38 @@
+@media screen and (max-width: 800px) {
+    
+    .mainheader nav {
+        font-size: 0.8rem;
+        background: #000000;
+        height: 138px;
+    }
+    
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+    
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+    
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+    
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+    
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;
+        height: 130px;
+    }
+}
+
 @font-face {
     font-family: lost;
     src: url("../css/PETRICIC.ttf");
@@ -50,30 +85,3 @@
     margin: 0;
     display: block;
 }
-
-@media screen and (max-width: 800px) {
-    
-    .mainheader nav {
-        font-size: 0.8rem;
-        background: #000000;
-        height: 138px;
-    }
-    
-    .mainheader nav ul {
-        padding-left: 0px;
-    }
-    
-    .mainheader nav ul li {
-        display: block;
-        width: 100%;
-    }
-    
-    .mainheader nav ul li a:link {
-        height: 25px;
-    }
-    
-    .mainheader nav ul li a:hover {
-        background: none;
-    }
-}
-    
