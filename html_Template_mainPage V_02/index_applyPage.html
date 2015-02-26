@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" type="text/css" href="CSS_Style.css"/>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="mainheader">
+                <nav>
+                    <ul>
+                        <li><a href="index_mainPage.html">ОЛАЧАН</a></li>
+                        <li><a href="#">АТРАК</a></li>
+                        <li><a href="#">САН АЗ</a></li>
+                        <li><a href="#">ИРОТКЕЛ</a></li>
+                        <li><a href="index_applyPage.html">ЕНАВТСТАДИДНАК</a></li>
+                    </ul>
+                </nav>
+                <form id="googlebar" method="get" action="http://www.google.com/search"> <div style="border:0px;padding:4px;width:20em;"> <table border="0" cellpadding="0"> <tr><td> <input type="text" name="q" size="30" maxlength="255" value="" /> <input type="submit" value="Google Search" /></td></tr> <tr><td align="center" style="font-size:100%"><br /> </td></tr></table> </div>
+                </form>
+            </header>
+
+            <main>
+              <div class="content" id="details">
+                <form method="post">
+
+                  <div class="label">
+                      <label id="firstName">First Name/Име</label>
+                      <span>*</span>
+                      <input id="first" type="text" name="name" placeholder="First Name" />
+                  </div>
+
+                  <div class="label">
+                      <label id="secondName">Middle Name/Презиме</label>
+                      <span>*</span>
+                      <input id="secon" type="text" name="name" placeholder="Middle Name" />
+                  </div>   
+
+                  <div class="label">
+                      <label id="lastName">Last Name/Фамилия</label>
+                      <span>*</span>
+                      <input id="last" type="text" name="name" placeholder="Last Name" />
+                  </div>   
+
+                  <div id="radio-group">
+                      <input id="Male" type="radio" name="Gender" placeholder="M/F" />
+                      <label for="visa">Male</label>
+
+                      <input id="Female" type="radio" name="Gender" placeholder="M/F" />
+                      <label for="visa">Female</label>
+                  </div>
+
+                  <div class="label">
+                      <label id="date">Date of birth/Дата на раждане</label>
+                      <span>*</span>
+                      <input id="mounth" type="date" name="date" placeholder="DD/MM/YYYY" />
+                  </div>
+
+                  <div class="label">
+                      <label id="ssn">SSN/ЕГН</label>
+                      <span>*</span>
+                      <input id="egn" type="text" name="name" placeholder="Numbers Only" />
+                  </div>
+
+                  <div class="label">
+                      <label id="country">Country/Държава</label>
+                      <span>*</span>
+                      <input id="country2" type="text" name="name" placeholder="Bulgaria" />
+                  </div>
+
+                  <div class="label">
+                      <label id="province">Province/Област</label>
+                      <span>*</span>
+                      <input id="province2" type="text" name="name" placeholder="Sofia" />
+                  </div>
+
+                  <div class="label">
+                      <label id="city">City/Град</label>
+                      <span>*</span>
+                      <input id="city2" type="text" name="name" placeholder="Sofia" />
+                  </div>
+
+                  <div class="label">
+                      <label id="phone">Phone Nymber/Телефон</label>
+                      <span>*</span>
+                      <input id="phone2" type="phone" name="phoneNumber" placeholder="+359-876-11-22-33" />
+                  </div>
+
+                  <div class="label">
+                      <label id="mail">E-mail/Имейл</label>
+                      <span>*</span>
+                      <input id="mail2" type="text" name="name" placeholder="email@dgd.com" />
+                  </div>                       
+
+                  <div class="label">
+                      <label id="pic">Pictures/Снимка</label>
+                      <span>*</span>
+                      <input id="choseFile" type="file" name="fileToUpload" id="fileToUpload">
+                      <form action="upload.php" method="post" enctype="multipart/form-data">
+                      </form>
+                  </div>
+
+                  <div id="send">
+                      <input type="submit"
+                      name="submit-button"
+                      id="submit-button"
+                      value="Send/Изпрати"/>
+                  </div>
+                </form>
+              </div>
+            </main>
+          <footer>
+              <p>This site is distributed under the Dust_Storm&#0153; License. If you want to contribute to it please contact us at LostUni&copy; official e-mail address.</p>
+          </footer>
+        </div>
+    </body>
+</html>
