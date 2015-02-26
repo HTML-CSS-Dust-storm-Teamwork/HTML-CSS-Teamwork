@@ -42,8 +42,9 @@ body {
 .mainheader nav a:focus {
     direction: rtl; 
     unicode-bidi: bidi-override;
-    transition: 1s ease;
-    background-color: #CFCFCF;
+    background-image: url(spray.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mainheader img{
