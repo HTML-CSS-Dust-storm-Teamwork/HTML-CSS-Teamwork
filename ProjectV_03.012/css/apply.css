@@ -1,0 +1,128 @@
+body{
+  background-image: url("../images/DrugBckgReady.jpg");
+  background-position: center;
+  background-attachment: scroll;
+}
+@font-face {
+    font-family: lost-font;
+    src: url("../css/PETRICIC.ttf");
+}
+.container {
+  margin-top: 15%;
+}
+.custom-font {
+    font-family: lost-font;
+    font-size: 20pt;
+}
+
+#test > ul > li:nth-child(n+2){
+    padding-left: 110px;
+}
+
+#test > ul > li > a:hover {
+    direction: rtl; 
+    unicode-bidi: bidi-override;
+    color: #FF9900;
+    background-color: transparent;
+}
+
+#test > ul > li > a:focus {
+    direction: rtl; 
+    unicode-bidi: bidi-override;
+    color: #FF9900;
+    background-color: transparent;
+}
+
+.centralize-font {
+    text-align: center;
+}
+.navbar .navbar-nav {
+    float: none;
+    display: inline-block;
+    text-align: center;
+}
+.jumbotron {
+  height: 300px;
+  color: white;
+  background:transparent;
+}
+body > header > div > div.navbar-header > button > span {
+    background-color: #337AB7;
+}
+
+body > header > div > div.navbar-header > button {
+    border-color: #337AB7;
+}
+#googleBar {
+  float: right;
+  margin-bottom: 75%;
+}
+
+
+
+
+/*CSS for Apply page from here*/
+.label{
+  color: white;
+  display: list-item;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 2%;
+}
+
+#radio-group label {
+  margin-top: 2%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#radio-group {
+  position: relative;
+  text-align: center;
+  font-size: 1.7em;
+  color: white;
+}
+#addButton{
+  position: relative;
+}
+#fileToUpload {
+  margin-left: 50%;
+  font-size: 0.7em;
+}
+#submit-button{
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-bottom: 10%;
+  font-size: 2em;
+  border: none;
+  height: 65px;
+  width: 250px;
+  margin-left: 45%;
+  padding: 5px 10px 10px 10px;
+  background: blue;
+  color: white;
+  border-radius: 40px;
+}
+#submit-button:active {
+  background: orange;
+  border: 0px solid white;
+  outline: 0;
+}
+span{
+  color: red;
+}
+.content{
+  font-family: Algerian;
+}
+div>input{
+  margin-left: 3%;
+  border-radius: 5px;
+}
+  .content input:hover, .content textarea:hover {
+  border: 3px solid skyblue;
+}
+
+/*to here*/
+
+/*CSS for AboutUs page start from here*/
+
