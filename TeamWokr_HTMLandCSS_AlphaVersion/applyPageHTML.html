@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LostUni</title>
+        <link rel="stylesheet" type="text/css" href="applyPageCSS.css">
+    </head>
+    <body>
+        <header class="mainheader">
+            <img src="resources/LostUni.jpg" alt="">
+            <nav>
+                <ul>
+                    <li><a href="mainPageHTML.html">ОЛАЧАН</a></li>
+                    <li><a href="#">АТРАК</a></li>
+                    <li><a href="#">САН АЗ</a></li>
+                    <li><a href="#">ИРОТКЕЛ</a></li>
+                    <li><a href="applyPageHtML.html">ЕНАВТСТАДИДНАК</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content" id="details">
+                <form method="post">
+
+                  <div class="label">
+                      <label id="firstName">First Name/Име</label>
+                      <span>*</span>
+                      <input id="first" type="text" name="name" placeholder="First Name" />
+                  </div>
+
+                  <div class="label">
+                      <label id="secondName">Middle Name/Презиме</label>
+                      <span>*</span>
+                      <input id="secon" type="text" name="name" placeholder="Middle Name" />
+                  </div>   
+
+                  <div class="label">
+                      <label id="lastName">Last Name/Фамилия</label>
+                      <span>*</span>
+                      <input id="last" type="text" name="name" placeholder="Last Name" />
+                  </div>   
+
+                  <div id="radio-group">
+                      <input id="Male" type="radio" name="Gender" placeholder="M/F" />
+                      <label for="Male">Male</label>
+
+                      <input id="Female" type="radio" name="Gender" placeholder="M/F" />
+                      <label for="Female">Female</label>
+                  </div>
+
+                  <div class="label">
+                      <label id="date">Date of birth/Дата на раждане</label>
+                      <span>*</span>
+                      <input id="mounth" type="date" name="date"/>
+                  </div>
+
+                  <div class="label">
+                      <label id="ssn">SSN/ЕГН</label>
+                      <span>*</span>
+                      <input id="egn" type="text" name="name" placeholder="Numbers Only" />
+                  </div>
+
+                  <div class="label">
+                      <label id="country">Country/Държава</label>
+                      <span>*</span>
+                      <input id="country2" type="text" name="name" placeholder="Bulgaria" />
+                  </div>
+
+                  <div class="label">
+                      <label id="province">Province/Област</label>
+                      <span>*</span>
+                      <input id="province2" type="text" name="name" placeholder="Sofia" />
+                  </div>
+
+                  <div class="label">
+                      <label id="city">City/Град</label>
+                      <span>*</span>
+                      <input id="city2" type="text" name="name" placeholder="Sofia" />
+                  </div>
+
+                  <div class="label">
+                      <label id="phone">Phone Nymber/Телефон</label>
+                      <span>*</span>
+                      <input id="phone2" type="phone" name="phoneNumber" placeholder="+359-876-11-22-33" />
+                  </div>
+
+                  <div class="label">
+                      <label id="mail">E-mail/Имейл</label>
+                      <span>*</span>
+                      <input id="mail2" type="text" name="name" placeholder="email@dgd.com" />
+                  </div>                       
+
+                  <div class="label">
+                      <label id="pic">Pictures/Снимка</label>
+                      <span>*</span>
+                      <input type="file" name="fileToUpload" id="fileToUpload">
+                  </div>
+
+                  <div id="send">
+                      <input type="submit"
+                      name="submit-button"
+                      id="submit-button"
+                      value="Send/Изпрати"/>
+                  </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>This site is distributed under the Dust Storm&#0153; License. If you want to contribute to it please contact us at LostUni&copy; official e-mail address.</p>
+        </footer>
+    </body>
+</html>

@@ -138,3 +138,8 @@ article > img{
     }
 }
 
+footer {
+  font-family: Arial;
+  font-size: 1em;
+  color: white;
+}
