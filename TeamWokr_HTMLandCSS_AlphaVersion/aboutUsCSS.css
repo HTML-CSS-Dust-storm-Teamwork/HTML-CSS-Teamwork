@@ -84,6 +84,26 @@ body{
     }
 }
 
+/*aboutUsCSS start from here*/
+#mainSection{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: rgba(0,92,230,0.7) 3px solid;
+    background-image: url("./resources/BckgReady.jpg");
+    background-position: center;
+}
+.button {
+    background-color: #d6d6d6;
+    font-weight: bold;
+    font-family: Arial;
+    color: #0000ee;
+}
+#info {
+    color: #fcf9f2;
+    margin: 50px;
+}
+
+
 
 
 

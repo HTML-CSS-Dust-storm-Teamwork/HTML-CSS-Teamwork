@@ -26,13 +26,13 @@ body{
 
 .mainheader nav a:link,
 .mainheader nav a:visited {
-	color: #005CE6;
+  	color: #005CE6;
     font-size: 3em;
     font-family: lost;
-	display: inline-block;
-	height: 30px;
-	padding: 5px 20px;
-	text-decoration: none;
+  	display: inline-block;
+  	height: 30px;
+  	padding: 5px 20px;
+  	text-decoration: none;
     margin: 0 auto;
 }
 
@@ -146,9 +146,13 @@ div>input{
 
 
 
-footer {
+
+footer > a {
   font-family: Arial;
-  font-size: 1em;
+  font-size: 1.2em;
   color: white;
+  margin-left: 40px;
+}
+#validator {
   text-align: center;
 }
