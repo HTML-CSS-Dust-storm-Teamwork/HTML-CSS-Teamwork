@@ -107,9 +107,12 @@ body{
 
 
 
-footer {
+footer > a {
   font-family: Arial;
-  font-size: 1em;
+  font-size: 1.2em;
   color: white;
+  margin-left: 40px;
+}
+#validator {
   text-align: center;
 }
