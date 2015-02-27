@@ -84,65 +84,6 @@ body{
     }
 }
 
-/*CSS for Apply page from here*/
-#mainSec{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: rgba(0,92,230,0.7) 3px solid;
-    background-image: url("./resources/BckgReady.jpg");
-    background-position: center;
-}
-.label{
-  color: white;
-  display: list-item;
-  font-size: 2em;
-  text-align: center;
-  margin-top: 3%;
-}
-span{
-  color: red;
-}
-#radio-group {
-    position: relative;
-    text-align: center;
-    font-size: 1.7em;
-    color: white;
-}
-#submit-button{
-  margin-top: 5%;
-  margin-left: 50%;
-  margin-bottom: 10%;
-  font-size: 2em;
-  border: none;
-  height: 65px;
-  width: 250px;
-  margin-left: 45%;
-  padding: 5px 10px 10px 10px;
-  background: blue;
-  color: white;
-  border-radius: 40px;
-}
-#submit-button:active {
-  background: orange;
-  border: 0px solid white;
-  outline: 0;
-}
-.content{
-  font-family: Algerian;
-}
-div>input{
-  margin-left: 3%;
-  border-radius: 5px;
-  font-size: 0.8em;
-}
-  .content input:hover, .content textarea:hover {
-  border: 0px;
-}
-
-/*to here*/
-
-
-
 
 
 

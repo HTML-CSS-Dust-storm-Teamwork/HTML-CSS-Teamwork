@@ -58,6 +58,7 @@ main{
 section{
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 20px;
     border: rgba(0,92,230,0.7) 3px solid;
     background: rgba(110,110,110,0.5);
 }
@@ -142,4 +143,5 @@ footer {
   font-family: Arial;
   font-size: 1em;
   color: white;
+  text-align: center;
 }
