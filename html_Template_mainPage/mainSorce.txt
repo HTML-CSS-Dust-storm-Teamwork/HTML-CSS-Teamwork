@@ -1,2 +1,0 @@
-http://www.w3schools.com/php/php_file_upload.asp
-http://stackoverflow.com/questions/8974633/button-to-show-choose-a-file-to-upload-dialog-box
