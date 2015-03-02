@@ -37,7 +37,7 @@ body{
 }
 
 .mainheader nav a:hover,
-.mainheader nav a:focus {
+.mainheader nav a:active {
     direction: rtl;
     unicode-bidi: bidi-override;
     background-image: url("/resources/spray.png");
