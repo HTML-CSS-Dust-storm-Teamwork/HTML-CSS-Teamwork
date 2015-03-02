@@ -88,7 +88,6 @@ body{
 #mainSec{
     margin-top: 20px;
     margin-bottom: 20px;
-    border: rgba(0,92,230,0.7) 3px solid;
     background-image: url("./resources/BckgReady.jpg");
     background-position: center;
 }
@@ -107,11 +106,12 @@ span{
     text-align: center;
     font-size: 1.7em;
     color: white;
+    margin-top: 3%;
 }
 #submit-button{
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 50%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   font-size: 2em;
   border: none;
   height: 65px;
