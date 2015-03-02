@@ -84,25 +84,73 @@ body{
     }
 }
 
+section {
+    color: white;
+}
+article {
+    display: inline-block;
+}
 h1 {
     font-size: 3em;
-    color: white;
     text-align: center;
-    margin: 100px 0px ;
+    margin: 75px 0px;
 }
-img {
-    width: 40%;
-    height: 40%;
-    display: block;
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+#Map {
+    /* border shte se maha */
+    width: 800px;
+    height: 1000px;
+    border: 2px solid #ff0000;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+#Map img {
+    width: 734px;
+    height: 837px;
     margin-left: auto;
     margin-right: auto;
 }
-p {
-    font-size: 2em;
-    color: white;
+#Reach {
+    /* border shte se maha */
+    width: 800px;
+    height: 1000px;
+    border: 2px solid #ff0000;
     margin: 20px;
+    padding: 20px;
 }
-p span {
-   color: red;
-   text-decoration: underline;
+#Reach img {
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Reach ul li {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 20px;
+    list-style: none;
+}
+#Reach ul li a {
+    text-decoration: none;
+}
+#Reach ul li a:hover {
+    text-decoration: underline;
+    color: green;
+}
+#Reach ul li a:before {
+    content: " « "
+}
+#Reach ul li a:after {
+    content: " » "
 }
