@@ -48,38 +48,7 @@ body{
     margin: 0;
     display: block;
 }
-@media screen and (max-width: 800px) {
 
-    .mainheader nav {
-        font-size: 0.5rem;
-        background: #000000;
-    }
-
-    .mainheader nav ul {
-        padding-left: 0px;
-    }
-
-    .mainheader nav ul li {
-        display: block;
-        width: 100%;
-    }
-
-    .mainheader nav ul li a:link {
-        height: 25px;
-    }
-
-    .mainheader nav ul li a:hover {
-        background: none;
-    }
-}
-
-@media screen and (max-width: 540px){
-
-    .mainheader nav {
-        font-size: 0.550rem;
-        background: #000000;;
-    }
-}
 
 /*aboutUsCSS start from here*/
 #mainSection{
@@ -111,7 +80,9 @@ body{
     margin-bottom: 5%;
 
 }
-
+img{
+    border-radius: 15px;
+}
 
 
 footer > #icons {
@@ -178,4 +149,37 @@ footer > #license {
     width: 40px;
     height: 41px;
     background-image: url("./resources/face3.jpg"); 
+}
+
+@media screen and (max-width: 800px) {
+
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
 }
