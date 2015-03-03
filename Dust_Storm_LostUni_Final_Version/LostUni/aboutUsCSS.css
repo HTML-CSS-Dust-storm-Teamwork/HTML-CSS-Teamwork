@@ -57,14 +57,22 @@ body{
     background-image: url("./resources/BckgReady.png");
     background-position: center;
 }
-.button {
-    width: 100px;
-    height: 30px;
-    background-color: #d6d6d6;
-    font-weight: bold;
-    font-family: Algerian;
-    color: #0000ee;
+
+
+.sprite {
+	background: url('resources/sprites.png') no-repeat 0 -34px;
+	width: 32px;
+	height: 32px;
+    border: none;
 }
+
+.sprite:hover {
+    background: url('resources/sprites.png') no-repeat 0 0;
+	width: 32px;
+	height: 32px;
+    border: none;
+}
+
 #info {
     color: #fcf9f2;
     margin: 50px;
