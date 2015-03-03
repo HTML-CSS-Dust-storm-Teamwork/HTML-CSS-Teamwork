@@ -27,7 +27,7 @@ body{
 .mainheader nav a:link,
 .mainheader nav a:visited {
 	color: #005CE6;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: lost;
 	display: inline-block;
 	height: 30px;
@@ -88,7 +88,7 @@ body{
 #mainSection{
 
 
-    background-image: url("./resources/BckgReady.jpg");
+    background-image: url("./resources/BckgReady.png");
     background-position: center;
 }
 .button {

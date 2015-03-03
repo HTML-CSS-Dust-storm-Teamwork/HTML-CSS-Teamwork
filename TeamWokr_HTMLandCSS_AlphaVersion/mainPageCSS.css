@@ -27,7 +27,7 @@ body{
 .mainheader nav a:link,
 .mainheader nav a:visited {
     color: #005CE6;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: lost;
     display: inline-block;
     height: 30px;
@@ -72,26 +72,26 @@ article{
 .artTxt{
     margin: 2% 2% 2% 4%;
     vertical-align: top;
-    width: 30%;
+    width: 33%;
     display: inline-block;
 }
 article > img{
     margin: 25px;
-    width: 60%;
+    width: 55%;
     height: auto;
     display: inline-block;
 }
 .artTxt h3{
     text-align: right;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 .artTxt p{
     margin-top: 3%;
     text-align: right;
-    font-size: 1.7em;
+    font-size: 1.3em;
 }
 
-@media screen and (max-width: 2100px){
+@media screen and (max-width: 1850px){
     .artTxt{
         margin: 25px auto 25px auto;
         display:block;
@@ -103,7 +103,7 @@ article > img{
     article > img{
         margin: 25px auto 25px auto;
         display:block;
-        width: 85%;
+        width: 75%;
     }
 }
 @media screen and (max-width: 800px) {
