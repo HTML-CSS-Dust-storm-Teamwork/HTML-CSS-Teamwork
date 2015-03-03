@@ -40,9 +40,6 @@ body{
 .mainheader nav a:active {
     direction: rtl;
     unicode-bidi: bidi-override;
-    background-image: url("/resources/spray.png");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .mainheader img{
@@ -50,38 +47,6 @@ body{
     height: auto;
     margin: 0;
     display: block;
-}
-@media screen and (max-width: 800px) {
-
-    .mainheader nav {
-        font-size: 0.5rem;
-        background: #000000;
-    }
-
-    .mainheader nav ul {
-        padding-left: 0px;
-    }
-
-    .mainheader nav ul li {
-        display: block;
-        width: 100%;
-    }
-
-    .mainheader nav ul li a:link {
-        height: 25px;
-    }
-
-    .mainheader nav ul li a:hover {
-        background: none;
-    }
-}
-
-@media screen and (max-width: 540px){
-
-    .mainheader nav {
-        font-size: 0.550rem;
-        background: #000000;;
-    }
 }
 
 /*aboutUsCSS start from here*/
@@ -99,24 +64,69 @@ body{
     font-family: Algerian;
     color: #0000ee;
 }
-#info {
+.info {
     color: #fcf9f2;
     margin: 50px;
     text-align: center;
-}
-#us {
     font-family: lost;
     font-size: 2em;
+}
+.info>.upLect, .info> .downLect{
+    width: 45%;
     display: inline-block;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+}
 
+.nakov>img,.nakov > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nakov>img{
+    border-radius: 25px;
+}
+.nakov > article >p{
+    font-size: 0.6em;
+}
+.angel>img,.angel > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.angel>img{
+    border-radius: 25px;
+}
+.angel > article >p{
+    font-size: 0.6em;
 }
 
 
+.bogi>img,.bogi > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.bogi>img{
+    border-radius: 25px;
+}
+.bogi > article >p{
+    font-size: 0.6em;
+}
 
+.niki>img,.niki > article{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.niki>img{
+    border-radius: 25px;
+}
+.niki > article >p{
+    font-size: 0.6em;
+}
+
+.angel,.niki,.nakov,.bogi{
+    margin-top: 4%;
+}
 footer > #icons {
     text-align: center;
 
@@ -181,4 +191,40 @@ footer > #license {
     width: 40px;
     height: 41px;
     background-image: url("./resources/face3.jpg"); 
+}
+
+@media screen and (max-width: 800px) {
+    .info>.upLect, .info> .downLect{
+        width: 85%;
+        display: block;
+    }
+    .mainheader nav {
+        font-size: 0.5rem;
+        background: #000000;
+    }
+
+    .mainheader nav ul {
+        padding-left: 0px;
+    }
+
+    .mainheader nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    .mainheader nav ul li a:link {
+        height: 25px;
+    }
+
+    .mainheader nav ul li a:hover {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 540px){
+
+    .mainheader nav {
+        font-size: 0.550rem;
+        background: #000000;;
+    }
 }

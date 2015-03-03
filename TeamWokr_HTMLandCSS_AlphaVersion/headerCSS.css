@@ -40,9 +40,6 @@ body{
 .mainheader nav a:focus {
     direction: rtl;
     unicode-bidi: bidi-override;
-    background-image: url("/resources/spray.png");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .mainheader img{
