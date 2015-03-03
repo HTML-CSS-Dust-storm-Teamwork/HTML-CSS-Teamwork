@@ -72,6 +72,7 @@ body{
     font-size: 2em;
 }
 .info>.upLect, .info> .downLect{
+    vertical-align: top;
     width: 45%;
     display: inline-block;
 }
@@ -126,6 +127,10 @@ body{
 
 .angel,.niki,.nakov,.bogi{
     margin-top: 4%;
+}
+
+article > p{
+    color: #3C79BA;
 }
 footer > #icons {
     text-align: center;
