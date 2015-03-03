@@ -48,10 +48,12 @@ body{
     margin: 0;
     display: block;
 }
+#mainSection{
 
 
-
-
+    background-image: url("./resources/BckgReady.png");
+    background-position: center;
+}
 h2 {
     color: green;
     text-align: center;

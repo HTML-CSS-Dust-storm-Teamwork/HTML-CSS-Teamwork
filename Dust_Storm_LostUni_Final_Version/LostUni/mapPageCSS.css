@@ -48,7 +48,12 @@ body{
     margin: 0;
     display: block;
 }
+#mainSection{
 
+
+    background-image: url("./resources/BckgReady.png");
+    background-position: center;
+}
 
 section {
     color: white;
