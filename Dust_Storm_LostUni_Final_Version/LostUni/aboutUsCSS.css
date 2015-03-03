@@ -78,7 +78,7 @@ body{
     margin: 50px;
     text-align: center;
 }
-#us {
+#us, #us1, #us2, #us3, #us4 {
     font-family: lost;
     font-size: 2em;
     display: inline-block;
